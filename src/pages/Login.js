@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { auth } from "../firebase";
 import { useHistory } from "react-router-dom";
-import "../index.css"; // garante que os estilos globais sejam aplicados
+import "../index.css";
 
 export default function Login() {
     const [form, setForm] = useState({ email: "", password: "" });
